@@ -14,7 +14,7 @@ Intent of this project is to illustrate how **Appium** can be used to test mobil
 ## Android App Tests
 This would precisely explain how to get started with Android App testing, write the first test and then the test suite management.
 
-This java project has been created using **IntelliJ IDea 13 Community Edition**. POM File manages the dependency of **Selenium (version 2.43.0)**. Project is using **TestNG annotation**. We have also bundled the respective mobile applications under the apps folder for ease.
+This java project has been created using **IntelliJ IDea 2016 ultimate Edition**. POM File manages the dependency of **Selenium (version 3.0.1)**. Project is using **JUnit annotation**. We have also bundled the respective mobile applications under the apps folder for ease.
 
 ## Steps:
 
