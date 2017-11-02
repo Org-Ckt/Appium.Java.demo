@@ -1,0 +1,225 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>invalidLogin</title>
+    <script src="../../js/share/common-utils.js"></script>
+    <script src="../../js/share/capture-style.js"></script>
+    <script src="../../js/share/yaml/js-yaml.min.js"></script>
+    <script src="../../js/share/yaml/yaml-utils.js"></script>
+    <script src="../../js/share/srctree/code/code.js"></script>
+    <script src="../../js/share/srctree/code/string-code.js"></script>
+    <script src="../../js/share/srctree/code/method-argument.js"></script>
+    <script src="../../js/share/srctree/code/unknown-code.js"></script>
+    <script src="../../js/share/srctree/code/sub-method-invoke.js"></script>
+    <script src="../../js/share/srctree/code/local-var.js"></script>
+    <script src="../../js/share/srctree/code/field.js"></script>
+    <script src="../../js/share/srctree/code/var-assign.js"></script>
+    <script src="../../js/share/srctree/code/class-instance.js"></script>
+    <script src="../../js/share/srctree/code/test-step.js"></script>
+    <script src="../../js/share/srctree/code/test-step-label.js"></script>
+    <script src="../../js/share/srctree/code/code-line.js"></script>
+    <script src="../../js/share/srctree/test-class.js"></script>
+    <script src="../../js/share/srctree/page-class.js"></script> 
+    <script src="../../js/share/srctree/test-field.js"></script>
+    <script src="../../js/share/srctree/test-field-table.js"></script>
+    <script src="../../js/share/srctree/test-method.js"></script>
+    <script src="../../js/share/srctree/test-method-table.js"></script>
+    <script src="../../js/share/srctree/test-class-table.js"></script>
+    <script src="../../js/share/srctree/src-tree.js"></script>
+    <script src="../../js/share/testdoc-resolver.js"></script>
+
+    <link href="../../css/perfect-scrollbar.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/jquery.treetable.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/jquery.treetable.theme.default.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/report.css" rel="stylesheet" type="text/css" />
+
+    <script src="../../js/report/jquery-1.11.1.min.js"></script>
+    <script src="../../js/report/perfect-scrollbar.min.js"></script>
+    <script src="../../js/report/jquery.treetable.js"></script>
+    <script src="../../js/report/jquery.bxslider.min.js"></script>
+    <script src="../../js/report/src-tree-yaml.js"></script>
+    <script src="../../js/report/report.js"></script>
+    <script>
+      sahagin.errLineTtId = "";
+    </script>
+  </head>
+  <body>
+    <header>
+            <div>scenarios.AppiumTest</div>
+                  <div>invalidLogin</div>
+                  <div>56.9 sec</div>
+          </header>
+    <div id="main_container">
+      <div id="button_container">
+        <div id="showSrcButton" onclick="showSrcInfo()"><u>show code &gt;&gt;</u></div>
+        <div id="hide_button_container">
+          <span id="hideSrcButton" onclick="hideSrcInfo()"><u>&lt;&lt; hide code</u></span>
+          <span id="time_unit">(sec)</span>
+        </div>
+      </div>
+      <div id="left_container">
+        <div id="outer_script_table_container" class="noCode">
+          <div class="scrollContainer" id="script_table_container">
+            <table border="1" cellpadding="1" cellspacing="1" id="script_table">
+              <tbody>
+                                                                                                                                                                <tr data-tt-id="0"  data-image-id="0" data-method-key="" class="successLine ">
+                  <td>-</td>
+                  <td>- hidden -</td>
+                  <td class="srcInfo">waitForVisibilityOf(existingUser_login);</td>
+                  <td class="srcInfo numeric_cell">-</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="1"  data-image-id="1" data-method-key="org.openqa.selenium.WebElement.click" class="successLine ">
+                  <td>-</td>
+                  <td>click element 'existingUser_login'</td>
+                  <td class="srcInfo">driver.findElement(existingUser_login).click();</td>
+                  <td class="srcInfo numeric_cell">0.5</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="2"  data-image-id="2" data-method-key="org.openqa.selenium.WebElement.clear" class="successLine ">
+                  <td>-</td>
+                  <td>clear the text of element 'userId'</td>
+                  <td class="srcInfo">driver.findElement(userId).clear();</td>
+                  <td class="srcInfo numeric_cell">1.0</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="3"  data-image-id="3" data-method-key="org.openqa.selenium.WebElement.sendKeys" class="successLine ">
+                  <td>-</td>
+                  <td>send keys 'someone@test.com' to element 'userId'</td>
+                  <td class="srcInfo">driver.findElement(userId).sendKeys("someone@test.com");</td>
+                  <td class="srcInfo numeric_cell">5.0</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="4"  data-image-id="4" data-method-key="org.openqa.selenium.WebElement.sendKeys" class="successLine ">
+                  <td>-</td>
+                  <td>send keys 'test12345' to element 'password'</td>
+                  <td class="srcInfo">driver.findElement(password).sendKeys("test12345");</td>
+                  <td class="srcInfo numeric_cell">5.5</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="5"  data-image-id="5" data-method-key="org.openqa.selenium.WebElement.click" class="successLine ">
+                  <td>-</td>
+                  <td>click element 'login_Button'</td>
+                  <td class="srcInfo">driver.findElement(login_Button).click();</td>
+                  <td class="srcInfo numeric_cell">0.5</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="6"  data-image-id="6" data-method-key="" class="successLine ">
+                  <td>-</td>
+                  <td>- hidden -</td>
+                  <td class="srcInfo">Assert.assertTrue(driver.findElement(By.id("pageLevelError")).getText().equalsIgnoreCase("Account does not exist"));</td>
+                  <td class="srcInfo numeric_cell">-</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="7"  data-image-id="7" data-method-key="org.openqa.selenium.WebElement.click" class="successLine ">
+                  <td>-</td>
+                  <td>click element 'facebook_login'</td>
+                  <td class="srcInfo">driver.findElement(facebook_login).click();</td>
+                  <td class="srcInfo numeric_cell">0.5</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="8"  data-image-id="8" data-method-key="" class="successLine ">
+                  <td>-</td>
+                  <td>- hidden -</td>
+                  <td class="srcInfo">Thread.sleep(10000);</td>
+                  <td class="srcInfo numeric_cell">-</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="9"  data-image-id="9" data-method-key="" class="successLine ">
+                  <td>-</td>
+                  <td>set 'all elements for 'login_details'' to 'variable 'element''</td>
+                  <td class="srcInfo">List<WebElement> element=driver.findElements(login_details);</td>
+                  <td class="srcInfo numeric_cell">0.2</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="10"  data-image-id="10" data-method-key="org.openqa.selenium.WebElement.sendKeys" class="successLine ">
+                  <td>-</td>
+                  <td>send keys 'testUser@email.com' to '0'th element of 'variable 'element''</td>
+                  <td class="srcInfo">element.get(0).sendKeys("testUser@email.com");</td>
+                  <td class="srcInfo numeric_cell">9.1</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="11"  data-image-id="11" data-method-key="org.openqa.selenium.WebElement.sendKeys" class="successLine ">
+                  <td>-</td>
+                  <td>send keys 'test123' to '1'th element of 'variable 'element''</td>
+                  <td class="srcInfo">element.get(1).sendKeys("test123");</td>
+                  <td class="srcInfo numeric_cell">8.8</td>
+                </tr>
+                                                                                                                                                                <tr data-tt-id="12"  data-image-id="12" data-method-key="org.openqa.selenium.WebElement.click" class="successLine ">
+                  <td>-</td>
+                  <td>click element 'login_facebook'</td>
+                  <td class="srcInfo">driver.findElement(login_facebook).click();</td>
+                  <td class="srcInfo numeric_cell">0.9</td>
+                </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+        <br/>
+        <div id="msg_container">
+                  </div>
+      </div>
+      <div id="right_container">
+        <div id="bxslider_container">
+        <ul class="bxslider">
+                    <li>
+            <div data-image-id="noImage" data-image-width="736" data-image-height="455" execution-time="0" class="scrollContainer">
+              <img src="../../images/noImage.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="1" data-image-width="720" data-image-height="1280" execution-time="537" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/001.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="2" data-image-width="720" data-image-height="1280" execution-time="976" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/002.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="3" data-image-width="720" data-image-height="1280" execution-time="5042" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/003.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="4" data-image-width="720" data-image-height="1280" execution-time="5498" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/004.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="5" data-image-width="720" data-image-height="1280" execution-time="491" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/005.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="7" data-image-width="720" data-image-height="1280" execution-time="549" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/006.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="9" data-image-width="720" data-image-height="1280" execution-time="189" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/007.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="10" data-image-width="720" data-image-height="1280" execution-time="9089" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/008.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="11" data-image-width="720" data-image-height="1280" execution-time="8850" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/009.png" />
+            </div>
+          </li>
+                    <li>
+            <div data-image-id="12" data-image-width="720" data-image-height="1280" execution-time="939" class="scrollContainer">
+              <img src="../../captures/scenarios.AppiumTest/invalidLogin/010.png" />
+            </div>
+          </li>
+                  </ul>
+      </div>
+    </div>
+    <div id="methodArgTestDocs">
+                                                                <div class="hiddenMethodArgTestDoc" data-tt-id="3">someone@test.com</div>
+                              <div class="hiddenMethodArgTestDoc" data-tt-id="4">test12345</div>
+                                                                                                    <div class="hiddenMethodArgTestDoc" data-tt-id="10">testUser@email.com</div>
+                              <div class="hiddenMethodArgTestDoc" data-tt-id="11">test123</div>
+                                </div>
+    <div id="localeData">
+      <div id="codeLineWithoutTestDoc">hidden</div>
+      <div id="jsLocalVar">variable '{0}'</div>
+      <div id="jsVarAssign">set '{0}' to '{1}'</div>
+    </div>
+  </body>
+</html>

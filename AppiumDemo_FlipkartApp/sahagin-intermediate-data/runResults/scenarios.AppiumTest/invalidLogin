@@ -1,0 +1,44 @@
+executionTime: 56870
+lineScreenCaptures:
+- executionTime: 537
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\001.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 1, line: 43}
+- executionTime: 976
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\002.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 2, line: 44}
+- executionTime: 5042
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\003.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 3, line: 45}
+- executionTime: 5498
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\004.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 4, line: 46}
+- executionTime: 491
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\005.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 5, line: 47}
+- executionTime: 549
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\006.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 7, line: 49}
+- executionTime: 189
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\007.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 9, line: 51}
+- executionTime: 9089
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\008.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 10, line: 52}
+- executionTime: 8850
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\009.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 11, line: 53}
+- executionTime: 939
+  path: C:\Suchita_Review_Doc\MobileAutomation\workspace\Java\AppiumDemo_Report\sahagin-intermediate-data\captures\scenarios.AppiumTest\invalidLogin\010.png
+  stackLines:
+  - {methodKey: scenarios.AppiumTest.invalidLogin-void, codeBodyIndex: 12, line: 54}
+formatVersion: 0.9.2
+rootMethodKey: scenarios.AppiumTest.invalidLogin-void
